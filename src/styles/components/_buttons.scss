@@ -1,0 +1,13 @@
+.button {
+    &-default {
+        padding: 1rem 1.5rem;
+        background-color: $orange;
+        border-radius: 3px;
+        transition: all 0.15s ease-in;
+        cursor: pointer;
+        &:hover {
+            color: lighten($white, 2);
+            background-color: lighten($orange, 3);
+        }
+    }
+}
